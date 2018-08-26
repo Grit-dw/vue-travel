@@ -16,7 +16,7 @@
 </template>
 <script type="text/ecmascript-6">
   export default {
-    name: 'HomeWeeked',
+    name: 'HomeWeekend',
     props: {
       list: Array
     },

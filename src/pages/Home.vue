@@ -4,7 +4,7 @@
       <home-swiper :list="swiperList"></home-swiper>
       <home-menu :list="menuList"></home-menu>
       <home-recommend :list="recommendList"></home-recommend>
-      <home-weeked :list="weekendList"></home-weeked>
+      <home-weekend :list="weekendList"></home-weekend>
     </div>
 </template>
 <script type="text/ecmascript-6">
@@ -12,7 +12,7 @@
   import HomeSwiper from './components/Swiper.vue'
   import HomeMenu from './components/GridMenu.vue'
   import HomeRecommend from './components/Recommend.vue'
-  import HomeWeeked from './components/Weekend.vue'
+  import HomeWeekend from './components/Weekend.vue'
   import axios from 'axios'
   export default {
     data () {
@@ -48,7 +48,7 @@
       HomeSwiper,
       HomeMenu,
       HomeRecommend,
-      HomeWeeked
+      HomeWeekend
     }
   }
 </script>
