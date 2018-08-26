@@ -2,12 +2,15 @@
     <div class="header">
       <div class="header-left"><i class="iconfont back-icon">&#xe624;</i></div>
       <div class="header-input"><i class="iconfont search-icon">&#xe632;</i>输入关键字</div>
-      <div class="header-right">城市 <i class="iconfont down-arrow">&#xe62d;</i></div>
+      <div class="header-right">{{this.city}} <i class="iconfont down-arrow">&#xe62d;</i></div>
     </div>
 </template>
 <script type="text/ecmascript-6">
   export default {
-    name: 'HomeHeader'
+    name: 'HomeHeader',
+    props: {
+      city: String
+    }
   }
 </script>
 <style lang="stylus" scoped>
