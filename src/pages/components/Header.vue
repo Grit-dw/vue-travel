@@ -2,7 +2,9 @@
     <div class="header">
       <div class="header-left"><i class="iconfont back-icon">&#xe624;</i></div>
       <div class="header-input"><i class="iconfont search-icon">&#xe632;</i>输入关键字</div>
+      <router-link to='/city'>
       <div class="header-right">{{this.city}} <i class="iconfont down-arrow">&#xe62d;</i></div>
+      </router-link>
     </div>
 </template>
 <script type="text/ecmascript-6">
@@ -17,7 +19,7 @@
   @import "~styles/variables.styl"
   .header
     display: flex
-    line-height: .86rem
+    line-height: $headerHeight
     background: $bgColor
     color: #fff
     .header-left
@@ -41,6 +43,7 @@
       width: 1.24rem
       float: right
       text-align: center
+      color: #fff
       .down-arrow
         font-size: .2rem
 </style>
