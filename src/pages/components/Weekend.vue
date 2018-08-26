@@ -4,7 +4,7 @@
       <ul>
         <li class="item border" v-for="item of list" :key="item.id">
           <div class="item-img-wrapper" >
-            <img class="item-img" :src="item.imgUrl" alt="">
+            <img class="item-img" :src="item.imgUrl">
           </div>
           <div class="item-info">
             <p class="item-title">{{item.title}}</p>
@@ -35,10 +35,6 @@
       overflow: hidden
       height: 0
       padding-bottom: 37.09%
-  /*.item*/
-    /*display: flex*/
-    /*height: 1.9rem*/
-    /*overflow: hidden*/
     .item-img
       width: 100%
     .item-info

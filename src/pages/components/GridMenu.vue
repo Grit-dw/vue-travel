@@ -11,42 +11,6 @@
           </div>
         </swiper-slide>
       </swiper>
-      <!--<div class="menu-icon">-->
-        <!--<div class="icon-img">-->
-          <!--<i class="icon-img-content iconfont">&#xe602;</i>-->
-        <!--</div>-->
-        <!--<p class="icon-desc">泡温泉</p>-->
-      <!--</div>-->
-      <!--<div class="menu-icon">-->
-        <!--<div class="icon-img">-->
-          <!--<i class="icon-img-content iconfont">&#xe6b9;</i>-->
-        <!--</div>-->
-        <!--<p class="icon-desc">动植物园</p>-->
-      <!--</div>-->
-      <!--<div class="menu-icon">-->
-        <!--<div class="icon-img">-->
-          <!--<i class="icon-img-content iconfont">&#xe605;</i>-->
-        <!--</div>-->
-        <!--<p class="icon-desc">一日游</p>-->
-      <!--</div>-->
-      <!--<div class="menu-icon">-->
-        <!--<div class="icon-img">-->
-          <!--<i class="icon-img-content iconfont">&#xe658;</i>-->
-        <!--</div>-->
-        <!--<p class="icon-desc">必游榜单</p>-->
-      <!--</div>-->
-      <!--<div class="menu-icon">-->
-        <!--<div class="icon-img">-->
-          <!--<i class="icon-img-content iconfont">&#xe69c;</i>-->
-        <!--</div>-->
-        <!--<p class="icon-desc">自然风光</p>-->
-      <!--</div>-->
-      <!--<div class="menu-icon">-->
-        <!--<div class="icon-img">-->
-          <!--<i class="icon-img-content iconfont">&#xe650;</i>-->
-        <!--</div>-->
-        <!--<p class="icon-desc">全部</p>-->
-      <!--</div>-->
     </div>
   </div>
 </template>
