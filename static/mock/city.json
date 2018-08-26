@@ -10,6 +10,10 @@
 			"spell": "shanghai",
 			"name": "上海"
 		}, {
+        "id": 37,
+        "spell": "shenzhen",
+        "name": "深圳"
+    }, {
 			"id": 47,
 			"spell": "xian",
 			"name": "西安"
@@ -17,7 +21,8 @@
 			"id": 239,
 			"spell": "sanya",
 			"name": "三亚"
-		}, {
+		},
+      {
 			"id": 188,
 			"spell": "lijiang",
 			"name": "丽江"
